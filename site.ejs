@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borch OOD</title>
+    <link href="bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <style>
+        body {
+            background-color: rgb(36, 10, 51);
+        }
+
+        .friend {
+            /* background-color: #7fffd4; */
+            background-color: #20db9d;
+            height: 200px;
+            margin: 16px 8px;
+            border-radius: 16px;
+            /* box-shadow: 5px 5px 5px #47ca9e; */
+            box-shadow: 5px 5px 5px #039161;
+            padding: 20px;
+        }
+
+        .friend-img {
+            width: 160px !important;
+            height: 160px !important;
+            border-radius: 100%;
+        }
+
+        .me {
+            background-color: #068d60;
+            height: 120px;
+            margin: 16px 8px;
+            border-radius: 16px;
+            /* box-shadow: 5px 5px 5px #096d4c; */
+            padding: 20px;
+        }
+
+        .me-img {
+            width: 80px !important;
+            height: 80px !important;
+            border-radius: 100%;
+        }
+
+        .me-div {
+            margin-left: 50px;
+            /* right: 0; */
+        }
+
+        .button {
+            width: 50%;
+            height: 60px;
+            background-color: rgb(28, 100, 196);
+            margin: 10px 30px;
+            border-radius: 220px;
+            font-size: x-large;
+            color: rgb(0, 0, 0);
+            vertical-align: middle;
+            text-align: center;
+
+            border: 2px;
+            border-color: black;
+            /* box-shadow: 5px 5px 5px rgb(150, 5, 5); */
+        }
+
+        .pay {
+            background-color: #ba1e68;
+        }
+
+        .me-button {
+            /* width: 50%; */
+            height: 40px;
+            background-color: rgb(27, 176, 202);
+            margin: 0px 30px;
+            border-radius: 12px;
+            font-size: large;
+            /* color: black; */
+            /* vertical-align: middle; */
+            /* text-align: center; */
+        }
+
+        .conteiner .row {
+            margin-right: 0;
+        }
+
+        .child {
+            display: table-cell;
+            width: 250px;
+            height: 100px;
+            padding: 10px;
+            margin-top: -10px;
+            /* border: 3px dashed #1c87c9; */
+            vertical-align: middle;
+            /* margin-top: 22.8px; */
+        }
+
+        .room-name {
+            margin-top: -8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="me">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img class="me-img" src="megumin.jpeg">
+                        </div>
+                        <div class="col room-name">
+                            <center class="child">
+                                <h2>Ideotite</h2>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="me">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img class="me-img" src="megumin.jpeg">
+                        </div>
+                        <div class="col room-name">
+                            <center class="child">
+                                <h2>Drugite ideoti</h2>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="friend">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img class="friend-img" src="megumin.jpeg">
+                        </div>
+                        <div class="col">
+                            <center>
+                                <h1 class="col">rosen1000</h1>
+                            </center>
+                            <center>
+                                <h3>You owe 25$</h3>
+                            </center>
+                            <div class="row">
+                                <button class="col button pay">Pay</button>
+                                <button class="col button">Loan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img src="gura.jpeg" class="friend-img">
+                        </div>
+                        <div class="col">
+                            <center>
+                                <h1>Gura &lt;3</h1>
+                            </center>
+                            <center>
+                                <h3>You own 1 uwu</h3>
+                            </center>
+                            <div class="row">
+                                <button class="col button pay">Pay</button>
+                                <button class="col button">Loan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="me">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="me-img" src="kezence.png">
+                        </div>
+                        <div class="col me-div">
+                            <center>
+                                <h2>Kezence</h2>
+                            </center>
+                            <center><button class="button me-button">Profile</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
